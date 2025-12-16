@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterFile</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1b1b1b;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+
+    .master-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    /* --- Warna untuk status --- */
+    .on {
+      background: #0047ff20; /* biru lembut */
+      border-left: 4px solid #007bff; /* biru terang */
+    }
+
+    .off {
+      background: #00000040; /* hitam kelabu */
+      border-left: 4px solid #555; /* kelabu */
+    }
+
+    /* --- Teks --- */
+    .master-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .master-name {
+      font-size: 1em;
+      font-weight: 600;
+    }
+
+    .latest-ep {
+      font-size: 0.85em;
+      color: #aaa;
+      margin-top: 3px;
+    }
+
+    /* --- Butang --- */
+    .play-btn {
+      background: #ff4747;
+      border: none;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .play-btn:hover {
+      background: #ff6a6a;
+    }
+  </style>
+</head>
+<body>
+  <header>MasterFile</header>
+
+  <main>
+    
+    <div class="master-item on">
+      <div class="master-info">
+        <span class="master-name">MasterFile1</span>
+        <span class="latest-ep">Latest 16 Dec 25 | 53 Video</span>
+      </div>
+      <button class="play-btn" onclick="window.open('')">Play</button>
+    </div>
+
+    
+    <div class="master-item off">
+      <div class="master-info">
+        <span class="master-name">MasterFile2</span>
+        <span class="latest-ep">Incoming | -Video</span>
+      </div>
+      <button class="play-btn" onclick="window.open('')">Play</button>
+    </div>
+ 
+    
+    <hr style="border: none; height: 1px; background: white; margin: 20px 0;">
+    
+    
+    <h2 style="
+  font-size:17px;      /* SAIZ TAJUK */
+  color:#ffffff;       /* WARNA */
+  font-weight:1000;     /* GAYA (tebal) */
+  margin-bottom:4px;
+">
+  Premium MasterFile
+</h2>
+
+<p style="
+  font-size:9px;      /* SAIZ DETAIL */
+  color:#666;          /* WARNA */
+  margin-top:0;
+">
+  Latest, 16 Dec 2025 | 0 Video
+  
+  
+  <!-- ===== 4 KOTAK KECIL HORIZONTAL ===== -->
+<div style="display:flex; gap:12px;">
+
+  <!-- KOTAK 1 -->
+  <a href="link"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration:none;">
+    
+    <div style="
+      width:70px;            /* SAIZ KOTAK */
+      height:60px;
+      background:#1b1b1b;    /* WARNA KOTAK */
+      border-radius:8px;     /* BUCU BULAT */
+      color:#fff;            /* WARNA TEKS */
+      font-size:10px;        /* SAIZ TEKS */
+      font-weight:600;       /* GAYA TEKS */
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    ">
+      test
+    </div>
+  </a>
+
+  <!-- KOTAK 2 -->
+  <a href="link"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration:none;">
+    
+    <div style="
+      width:70px;
+      height:60px;
+      background:#1b1b1b;
+      border-radius:8px;
+      color:#fff;
+      font-size:10px;
+      font-weight:600;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    ">
+      test
+    </div>
+  </a>
+
+  <!-- KOTAK 3 -->
+  <a href="link"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration:none;">
+    
+    <div style="
+      width:70px;
+      height:60px;
+      background:#1b1b1b;
+      border-radius:8px;
+      color:#fff;
+      font-size:10px;
+      font-weight:600;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    ">
+      test
+    </div>
+  </a>
+
+  <!-- KOTAK 4 -->
+  <a href="link"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration:none;">
+  
+   
+    <div style="
+      width:70px;
+      height:60px;
+      background:#1b1b1b;
+      border-radius:8px;
+      color:#fff;
+      font-size:10px;
+      font-weight:600;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    ">
+      test
+    </div>
+  </a>
+
+</div>
+<!-- ===== TAMAT KOD KOTAK ===== -->
+  
+  
+  
+</p>
+  </main>
+</body>
+</html>
