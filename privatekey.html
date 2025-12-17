@@ -58,7 +58,7 @@
   <h3>Akses Terhad</h3>
   <p>Masukkan kata kunci nombor</p>
 
-  <input type="number" id="pin" placeholder="Contoh: 1234">
+  <input type="number" id="pin" placeholder="****">
   <button onclick="check()">Masuk</button>
 
   <div class="msg" id="msg">Kata kunci salah</div>
@@ -66,7 +66,7 @@
 
 <script>
   function check(){
-    var betul = "1234";   // <<< TUKAR NOMBOR SINI
+    var betul = "0808";   // <<< TUKAR NOMBOR SINI
     var masuk = document.getElementById("pin").value;
 
     if(masuk === betul){
